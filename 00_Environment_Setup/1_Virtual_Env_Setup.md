@@ -32,3 +32,8 @@ cd 00_Environment_Setup
 ```bash
 pip install -r requirements.txt 
 ```
+
+### 步驟六 : 將環境註冊到Jupyter Notebook
+```bash
+python -m ipykernel install --user --name=.venv --display-name='WebScraping(venv)' 
+```
