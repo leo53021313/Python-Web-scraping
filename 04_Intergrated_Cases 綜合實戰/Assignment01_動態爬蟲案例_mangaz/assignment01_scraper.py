@@ -9,7 +9,7 @@ import os
 
 class MangazScraper:
 
-    def __init__(self, url = "https://www.mangaz.com/book/detail/157901", save_dir = "downloaded_manga_OOP", wait_time = 10):
+    def __init__(self, url = "https://www.mangaz.com/book/detail/157901", save_dir = "project_mangaz", wait_time = 10):
         self.url = url
         self.save_dir = self._create_dir(save_dir)
         self.wait_time = wait_time
